@@ -2,8 +2,8 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-# Synthia
-Machine learning network created for the 2024 DeepView competition
+# Nova
+
 
 
 # Installation
