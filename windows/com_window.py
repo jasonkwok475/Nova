@@ -128,16 +128,12 @@ class ComWindow(QDialog):
 
 
   def start(self):
-    #Check if bluetooth connection is established before starting main window, if not send an error message
-    #If it is established, log a message detailing the connection
-
     #Start main window
     if (str(self.port.currentText()) == "Bluetooth"):
       i = self.devices.currentIndex()
       self.mainWindow = MainWindow("Bluetooth", str(self.devices_arr[i]), str(self.addresses_arr[i]), int(self.serial.currentText()))
     else:
       self.mainWindow = MainWindow("COM", str(self.port.currentText()), str(hwidList[self.port.currentIndex() - 1]), int(self.serial.currentText()))
-
 
     self.close()
 
