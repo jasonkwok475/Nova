@@ -6,10 +6,6 @@ def main():
   app = QApplication(sys.argv)
   ex = ComWindow()
   #ex.show()
-  
-#  ex.refreshBluetoothWidget()
-    #Search for devices after window is shown
-    #QTimer.singleShot(1,self.refreshBluetoothWidget)
 
   sys.exit(app.exec_())
 
